@@ -67,6 +67,22 @@ section {
     box-shadow: 2px 2px 5px rgb(178, 98, 174);
 }
 
+#skills .card-title {
+    font-weight: bolder;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li::before {
+    content: "\261E";
+    color: orange;
+    font-weight: bolder;
+    display: inline-block;
+    width: 2rem;
+    margin-left: -2em;
+}
 
 
 #contact-detail {
