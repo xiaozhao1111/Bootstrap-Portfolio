@@ -11,9 +11,8 @@ body {
 
 a:hover {
     text-decoration: underline;
+    color: rgb(142, 176, 85) !important;
 }
-
-
 
 
 section {
@@ -64,69 +63,11 @@ section {
     color: black;
 }
 
-
-
-.project {
-    height: 200px;
-    margin: 5px;
-    border: 5px solid navy;
+.section-content a:hover {
+    box-shadow: 2px 2px 5px rgb(178, 98, 174);
 }
 
-.project:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 15px blue;
-}
 
-#project1 {
-    background-size: cover;
-    background-image: url("../images/01-travel-california.png");
-    background-repeat: no-repeat;
-}
-
-#project2 {
-    background-size: cover;
-    background-image: url("../images/02-css-snippet-cheatsheet.png");
-    background-repeat: no-repeat;
-}
-
-#project3 {
-    background-size: cover;
-    background-image: url("../images/03-html-css-Git-codeRefactor.png");
-    background-repeat: no-repeat;
-}
-
-#project4 {
-    background-size: cover;
-    background-image: url("../images/portfolio-1.jpg");
-    background-repeat: no-repeat;
-}
-
-#project5 {
-    background-size: cover;
-    background-image: url("../images/portfolio-2.jpg");
-    background-repeat: no-repeat;
-}
-
-.project-title {
-    background-color: aqua;
-    padding: 2px;
-    width: 180px;
-    position: relative;
-    margin-top: 140px;
-    margin-left: 0px;
-    height: 40px;
-}
-
-.project-title h3 {
-    margin: 0px;
-    font-size: 14px;
-    height: 13px;
-}
-
-.project-title p {
-    font-size: 10px;
-    height: 13px;
-}
 
 #contact-detail {
     font-size: 18px;
@@ -135,6 +76,8 @@ section {
 #contact-detail a {
     color: rgb(25, 51, 52);
 }
+
+
 
 .footer {
     background-color: rgb(26, 24, 24);
