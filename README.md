@@ -13,7 +13,7 @@ This webpage has the following main features.
 
 * A section displaying my work in grid. Use bootstrap cards for each project with a brief overview of the work. Use the button in the card to open the webpages.
 
-* A skill section listing out the skills to  from the bootcamp.
+* A skill section listing out the skills to learn from the bootcamp.
 
 
 ## The deployed webpage  
